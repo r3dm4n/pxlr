@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9CFE1A118BAB1745315F1739 /* Pods_pxlr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C279D809D2A7A8A1AE9FD755 /* Pods_pxlr.framework */; };
+		BE8B5EDC1F7ED0DC004E6975 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8B5EDB1F7ED0DC004E6975 /* PhotoCell.swift */; };
 		BE95A7F81F7E3BC7002ED685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95A7F71F7E3BC7002ED685 /* AppDelegate.swift */; };
 		BE95A7FA1F7E3BC7002ED685 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE95A7F91F7E3BC7002ED685 /* MapVC.swift */; };
 		BE95A7FD1F7E3BC7002ED685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95A7FB1F7E3BC7002ED685 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		5733B3876087987075BA2E31 /* Pods-pxlr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pxlr.release.xcconfig"; path = "Pods/Target Support Files/Pods-pxlr/Pods-pxlr.release.xcconfig"; sourceTree = "<group>"; };
 		AD57A2807F13F6E2E7EC5E38 /* Pods-pxlr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pxlr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pxlr/Pods-pxlr.debug.xcconfig"; sourceTree = "<group>"; };
+		BE8B5EDB1F7ED0DC004E6975 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		BE95A7F41F7E3BC7002ED685 /* pxlr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pxlr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE95A7F71F7E3BC7002ED685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE95A7F91F7E3BC7002ED685 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				BE98946C1F7E7ECA000AB0C1 /* DroppablePin.swift */,
+				BE8B5EDB1F7ED0DC004E6975 /* PhotoCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE95A7FA1F7E3BC7002ED685 /* MapVC.swift in Sources */,
+				BE8B5EDC1F7ED0DC004E6975 /* PhotoCell.swift in Sources */,
 				BE98946D1F7E7ECA000AB0C1 /* DroppablePin.swift in Sources */,
 				BE95A7F81F7E3BC7002ED685 /* AppDelegate.swift in Sources */,
 				BE98946F1F7E851D000AB0C1 /* Constants.swift in Sources */,
