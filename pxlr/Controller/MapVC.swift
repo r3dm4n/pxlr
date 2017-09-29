@@ -70,6 +70,12 @@ class MapVC: UIViewController, UIGestureRecognizerDelegate {
         spinner?.startAnimating()
         pullUpView.addSubview(spinner!)
     }
+    
+    func removeSpinner() {
+        if spinner != nil {
+            spinner?.removeFromSuperview()
+        }
+    }
 
     @IBAction func centerMapButtonPressed(_ sender: Any) {
         if authorizationStatus == .authorizedAlways || authorizationStatus == .authorizedWhenInUse {
@@ -100,6 +106,7 @@ extension MapVC: MKMapViewDelegate {
     
     @objc func dropPin(sender: UITapGestureRecognizer) {
         removePin()
+        removeSpinner()
         animateViewUp()
         addSwipe()
         addSpinner()
@@ -119,6 +126,8 @@ extension MapVC: MKMapViewDelegate {
             mapView.removeAnnotation(annotation)
         }
     }
+    
+    func add
 }
 
 extension MapVC: CLLocationManagerDelegate {
