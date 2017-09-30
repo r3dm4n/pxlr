@@ -16,6 +16,7 @@
 		BE95A8021F7E3BC7002ED685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE95A8001F7E3BC7002ED685 /* LaunchScreen.storyboard */; };
 		BE98946D1F7E7ECA000AB0C1 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98946C1F7E7ECA000AB0C1 /* DroppablePin.swift */; };
 		BE98946F1F7E851D000AB0C1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE98946E1F7E851D000AB0C1 /* Constants.swift */; };
+		BEF309B51F7F9BF800861552 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF309B41F7F9BF800861552 /* PopVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BE95A8031F7E3BC7002ED685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE98946C1F7E7ECA000AB0C1 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		BE98946E1F7E851D000AB0C1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BEF309B41F7F9BF800861552 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
 		C279D809D2A7A8A1AE9FD755 /* Pods_pxlr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pxlr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BE95A7F91F7E3BC7002ED685 /* MapVC.swift */,
+				BEF309B41F7F9BF800861552 /* PopVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF309B51F7F9BF800861552 /* PopVC.swift in Sources */,
 				BE95A7FA1F7E3BC7002ED685 /* MapVC.swift in Sources */,
 				BE8B5EDC1F7ED0DC004E6975 /* PhotoCell.swift in Sources */,
 				BE98946D1F7E7ECA000AB0C1 /* DroppablePin.swift in Sources */,
